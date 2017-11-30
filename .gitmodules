@@ -1,0 +1,3 @@
+[submodule "lib/lua-html2md"]
+	path = lib/lua-html2md
+	url = https://github.com/therainingmonkey/lua-html2md
