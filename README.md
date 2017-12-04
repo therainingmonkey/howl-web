@@ -13,5 +13,5 @@ git clone --recursive https://github.com/therainingmonkey/howl-web```
 ## Usage
 Open the command line and type `web-go`, followed by a URL, then press enter.
 
-If you set `web-show-urls` to `false`, web will hide the URL half of a link, and only show the link text.
+If you set `web_hide_urls` to `true`, web will hide the URL half of a link, and only show the link text.
 This will give you much prettier pages.

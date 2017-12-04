@@ -16,6 +16,18 @@ howl.command.register({
 	handler = web.display
 })
 
+-- Register web-specific settings
+howl.config.define({
+    name = "web_hide_urls",
+    description = "Hide link URLs and show only link text.",
+    -- Global scope is allowed, not just local
+    scope = "global",
+    -- Setting type_of provides options list & validation for free
+    type_of = "boolean",
+})
+-- Set an initial value
+if howl.config.web_hide_urls == nil then howl.config.web_hide_urls = false end
+
 local function unload ()
 	howl.command.unregister("web-go")
 end
