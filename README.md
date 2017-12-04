@@ -9,7 +9,7 @@ Install dependencies, then clone this repo into your bundles folder.
 ```bash
 luarocks install lua-requests
 cd ~/.howl/bundles
-git clone https://github.com/therainingmonkey/howl-web```
+git clone --recursive https://github.com/therainingmonkey/howl-web```
 
 ## Usage
 Open the command line and type `web-go`, followed by a URL, then press enter.
