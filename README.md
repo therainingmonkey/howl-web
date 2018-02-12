@@ -8,7 +8,8 @@ Ensure you have wget installed, then clone this repo into your bundles folder.
 
 ```bash
 cd ~/.howl/bundles
-git clone --recursive https://github.com/therainingmonkey/howl-web```
+git clone --recursive https://github.com/therainingmonkey/howl-web
+```
 
 ## Usage
 Open the command line and type `web-go`, followed by a URL, then press enter.
